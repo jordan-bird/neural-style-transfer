@@ -1,5 +1,3 @@
-<img src="https://cdn-images-1.medium.com/max/1600/1*XsXMU-MwGH_O3Trt6OKhuw.png">
-
 ### [neural-style-tf](https://github.com/cysmith/neural-style-tf)
 
 * **OS:** Ubuntu 18.04 LTS
