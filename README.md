@@ -11,7 +11,7 @@
 ```
 bash stylize_image.sh ./image_input/orange.jpg ./styles/cortes.jpg 
 ```
-Original | Peinture | Résultat
+Original | Cortès | Résultat
 --- | --- | ---
 <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/simple/init.png"> | <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/simple/style_0.png"> | <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/simple/result.png">
 ```
@@ -25,7 +25,7 @@ Single image elapsed time: 138.271806002
 python neural_style.py 
 --content_img face.jpg --style_mask --style_mask_imgs mask.png mask_inv.png --style_imgs picasso.jpg starry-night.jpg --style_imgs_weights 0.5 0.5
 ```
-Masque 1 | Masque 2 | Peinture 1 | Peinture 2 | Résultat
+Masque 1 | Masque 2 | Picasso | Van Gogh | Résultat
 --- | --- | --- | --- | ---
 <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/masks/mask.png"> | <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/masks/mask_inv.png"> | <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/masks/style_0.png" > | <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/masks/style_1.png"> | <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/masks/result.png" >
 ```
