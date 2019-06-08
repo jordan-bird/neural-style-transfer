@@ -9,15 +9,11 @@
 
 #### Une image et un style
 ```
-bash stylize_image.sh ./image_input/taj_mahal.jpg ./styles/cortes.jpg 
+bash stylize_image.sh ./image_input/orange.jpg ./styles/cortes.jpg 
 ```
 
----
-
-#### Une image, deux masques et un style
 ```
-python neural_style.py
---content_img "face.jpg" --content_img_dir "image_input" --style_mask --style_mask_imgs "mask.png" --style_imgs "nuit.jpg" --style_imgs_dir "styles"
+Single image elapsed time: 138.271806002
 ```
 
 ---
@@ -25,10 +21,11 @@ python neural_style.py
 #### Une image, deux masques et deux styles
 ```
 python neural_style.py 
---content_img "face2.png" --content_img_dir "image_input"--style_mask --style_mask_imgs "mask2.png" --style_imgs "nuit.jpg" --style_imgs_dir "styles"
+--content_img face.jpg --style_mask --style_mask_imgs mask.png mask_inv.png --style_imgs picasso.jpg starry-night.jpg --style_imgs_weights 0.5 0.5
 ```
-
 
 ```
 Single image elapsed time: 112.334724188
 ```
+
+---
