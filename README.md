@@ -34,3 +34,12 @@ Single image elapsed time: 112.334724188
 
 ---
 
+
+### Neural style with Tensorflow-GPU 2.0.0-beta0
+
+* **OS:** Ubuntu 18.04 LTS
+* **CUDA:** 10
+* **Python:** 3.7
+* **Tensorflow-GPU:** 2.0.0-beta0
+
+<img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/tensorflow/original.jpg" width=30% height=30%> <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/tensorflow/style.jpeg" width=30% height=30%> <img src="https://raw.githubusercontent.com/aquadzn/neural-style/master/examples/tensorflow/result.png">
