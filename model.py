@@ -13,12 +13,12 @@ parser = argparse.ArgumentParser(description=desc)
 
 parser.add_argument('imagelink',
                     type=str,
-                    help="URL of the input image (optional, example: https://website.com/image.jpg)",
+                    help="URL of the input image (example: https://website.com/image.jpg)",
                     )
 
 parser.add_argument('stylelink',
                     type=str,
-                    help="URL of the style image to apply (optional, example: https://website.com/style.jpg)",
+                    help="URL of the style image to apply (example: https://website.com/style.jpg)",
                     )
 
 parser.add_argument('--output',
