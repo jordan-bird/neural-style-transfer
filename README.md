@@ -45,7 +45,7 @@ On Linux systems, it will automatically remove them if the .keras/ folder is whe
 
 #### Example:
 ```
-python model.py https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2019/03/lion-3049884_960_720.jpg https://upload.wikimedia.org/wikipedia/commons/0/0e/Vassily_Kandinsky%2C_1926_-_Several_Circles%2C_Gugg_0910_25.jpg
+python model.py https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2019/03/lion-3049884_960_720.jpg https://definicion.mx/wp-content/uploads/literatura/Expresionismo.jpg
 ```
 ![image](https://i.imgur.com/0NPjxRo.jpg "Exemple")
 ---
@@ -54,7 +54,7 @@ python model.py https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2019/03
 
 #### Example:
 ```
-python model.py https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2019/03/lion-3049884_960_720.jpg https://upload.wikimedia.org/wikipedia/commons/0/0e/Vassily_Kandinsky%2C_1926_-_Several_Circles%2C_Gugg_0910_25.jpg --learning_rate 0.2 --size 1024
+python model.py https://acadienouvelle-6143.kxcdn.com/wp-content/uploads/2019/03/lion-3049884_960_720.jpg https://definicion.mx/wp-content/uploads/literatura/Expresionismo.jpg --learning_rate 0.2 --size 1024
 ```
 
 ## Setup
