@@ -1,9 +1,9 @@
-# Neural style with Tensorflow-GPU 2.0.0-beta1
+﻿# Neural style with Tensorflow-GPU 2.0.0-beta1
 
 Neural style transfer algorithm implemented with last GPU version of Tensorflow ! <br>
 @aquadzn (William Jacques)
 
-## Installation
+## Installation (hardest part ( ͡ʘ ͜ʖ ͡ʘ) )
 
 1) I advise you to follow the official Tensorflow installation tutorial to get latest version of tensorflow-gpu :
 * PIP: https://www.tensorflow.org/install/pip
@@ -13,9 +13,9 @@ After installing Tensorflow, you can check that you have the correct version wit
 
 2) Then you can clone my repository ```git clone https://github.com/aquadzn/neural-style-transfer.git```
 
-3) And install the requirements file with ```pip install -r requirements.txt```
+3) Install imageio package by running ```pip install imageio```
 
-4) Get started!
+PS : If you're having trouble with installing Tensorflow or running it with your GPU, I recommend you to correctly install CUDA and CUDNn libraries by following [Tensorflow's official tutorial](https://www.tensorflow.org/install/gpu#ubuntu_1804_cuda_10)
 
 ## Usage
 
