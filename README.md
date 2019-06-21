@@ -25,9 +25,9 @@ usage: model.py [-h] [--output OUTPUT] [--learning_rate LEARNING_RATE]
                 imagelink stylelink
 
 positional arguments:
-  imagelink             URL of the input image (optional, example:
+  imagelink             URL of the input image (example:
                         https://website.com/image.jpg)
-  stylelink             URL of the style image to apply (optional, example:
+  stylelink             URL of the style image to apply (example:
                         https://website.com/style.jpg)
 
 optional arguments:
